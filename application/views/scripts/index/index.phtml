@@ -1,0 +1,7 @@
+<?php         
+$this->title = "Offers";
+$this->headTitle($this->title);
+?>
+<ul>
+    <?php echo $this->partialLoop('index/partials/_user-row.phtml', $this->offers); ?>
+</ul>
